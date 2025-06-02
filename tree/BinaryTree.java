@@ -1,4 +1,14 @@
-package tree;
+/*
+git init
+git remote add origin https://github.com/your-username/DSA_GIT.git
+git add .
+git commit -m "Initial commit with DSA packages"
+git push -u origin main
+
+git branch -d tree or git branch -D tree-forcefully-delets branch locally
+git push origin --delete tree-delets from github
+
+*/package tree;
 
 public class BinaryTree {
     public static void main(String[] args) {

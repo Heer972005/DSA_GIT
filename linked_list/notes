@@ -37,3 +37,21 @@ previous node and a pointer to the next node.
 
 This allows for quick and easy insertion and deletion of nodes from the 
 list, as well as efficient traversal of the list in both directions.
+
+
+
+/*
+linked is the concept where we caan add elements dynamically
+address of each element may be not in sequence
+
+for each element(node-elemnet of linked list)
+two componenets:
+-value of it
+-address of next element
+
+types of liniked list:
+-single linked list
+-single-circular list
+-doubly linked list
+-double-circular list
+*/

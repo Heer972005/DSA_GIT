@@ -52,6 +52,84 @@ two componenets:
 types of liniked list:
 -single linked list
 -single-circular list
--doubly linked list
+-doubly linked list--for each node
+    --data
+    --addrees of previous elment
+    --address of next element
 -double-circular list
+
+destructor-fn hyyy2                 aving same name as the class/constructor to destroy the objects from memomry also
+
+class Node{
+    char data;
+    Node* next;
+    
+}
 */
+
+/*
+#include<iostream>
+using namespace std;
+
+class Node {
+public:
+    char data;
+    Node* next;
+    Node(char data) {
+        this->data = data;
+        this->next = NULL;
+    }
+    void printNode() {
+        cout << (this->data) << endl;
+    }
+};
+
+class SingleLinkedList {
+public:
+    Node* head;
+    SingleLinkedList() {
+        this->head = NULL;
+    }
+   
+    void insertEnd(char d) {
+        Node* nn = new Node(d); // Dynamically allocate the new node
+        Node* curr;
+        if (head != NULL) {
+            curr = head;
+            while (curr->next != NULL) {
+                curr = curr->next;
+            }
+            curr->next = nn; // Link the new node
+        } else {
+            head = nn; // Set head to the new node if list is empty
+        }
+    }
+    void printList() {
+        cout << "Printing the list" << endl;
+        Node* curr = head;
+        while (curr != NULL) {
+            curr->printNode();
+            curr = curr->next;
+        }
+    }
+    // Add a destructor to free memory
+    ~SingleLinkedList() {
+        Node* curr = head;
+        while (curr != NULL) {
+            Node* temp = curr;
+            curr = curr->next;
+            delete temp;
+        }
+    }
+};
+
+int main() {
+    SingleLinkedList list;
+    list.insertEnd('A');
+    list.printList();
+    list.insertEnd('B');
+    list.printList();
+    list.insertEnd('C');
+    list.printList();
+    return 0;
+}*/

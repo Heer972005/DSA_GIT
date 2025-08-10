@@ -24,8 +24,8 @@ int binaryFloorSqrt(int n){
     return res;
 }
 int main(){
-    cout << floorSqrt(11)<<endl;
-    cout << binaryFloorSqrt(11)<<endl;
+    cout << floorSqrt(16)<<endl;
+    cout << binaryFloorSqrt(16)<<endl;
     cout << sqrt(11);
     return 0;
 }

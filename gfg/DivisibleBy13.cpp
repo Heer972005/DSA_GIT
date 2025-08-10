@@ -42,7 +42,7 @@ int main(){
     bool isDivisible = divBy13(s);
     bool ISDivisible = DivBY13(s);
 
-    if(isDivisible &&ISDivisible&&DIVBY13)
+    if(isDivisible && ISDivisible&& DIVBY13)
         cout << "True" << endl;
     else
         cout << "False" << endl;

@@ -6,6 +6,20 @@ int powMod(int x,int n,int M){
         res = (res * x) % M;
     return res;
 }
+int OptPowMod(int x,int n,int M){
+    int res = 1;
+    while(n>=1){
+        if(n&1){
+            res = (res * x) % M;
+            n--;
+        }
+        else{
+            x = (x * x) % M;
+            n /= 2;
+        }
+    }
+    return res;
+}
 int main(){
     int x = 3, n = 2, M = 4;
     cout << powMod(x, n, M)<<endl;

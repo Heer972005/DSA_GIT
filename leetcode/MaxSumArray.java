@@ -1,4 +1,4 @@
-package linked_list;
+package leetcode;
 import java.util.Scanner;
 public class MaxSumArray {
     public static void main(String[] args) {

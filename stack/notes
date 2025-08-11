@@ -1,7 +1,14 @@
-/*linear 
+/*linear
 LIFO-Last In First Out
 the element that is inserted last, comes out first
 
 FILO-First in Last Out
+pop-operation to take out element from the top
+push-to add new elemnent on top
+top-is a pointer which points out the last inserted element
 
+overflow-if inserting data into stack and if locations are not available
+underflow-pulling data and no data available in stack
+
+array-overflow can occur so linked-list-dynamic
 */

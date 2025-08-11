@@ -23,5 +23,6 @@ int OptPowMod(int x,int n,int M){
 int main(){
     int x = 3, n = 2, M = 4;
     cout << powMod(x, n, M)<<endl;
+    cout << OptPowMod(x, n, M);
     return 0;
 }

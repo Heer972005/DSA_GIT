@@ -19,3 +19,4 @@ Deque or Double Ended Queue is a generalized version of Queue data structure tha
 Deque can act as both Stack and Queue
 It is useful in many problems where we need to have a subset of all operations also like insert/remove at front and insert/remove at the end.
 It is typically implemented either using a doubly linked list or circular array.
+

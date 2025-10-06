@@ -48,7 +48,7 @@ class Queue{
 int main(){
 
     Queue q;
-    q.enqueue(2);
+    /*q.enqueue(2);
     q.printQueue();
 
     q.enqueue(10);
@@ -58,6 +58,14 @@ int main(){
     q.printQueue();
     q.enqueue(8);
     q.printQueue();
-    cout<<q.sizeOfQueue();
+    cout<<q.sizeOfQueue();*/
+    q.enqueue(4);
+    q.enqueue(5);
+    q.enqueue(3);
+    q.enqueue(2);
+    q.enqueue(1);
+    q.dequeue();
+    q.enqueue(0);
+    q.printQueue();
     return 0;
 }
